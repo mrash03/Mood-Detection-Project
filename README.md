@@ -44,11 +44,12 @@ FER2013: 35,887 grayscale images (48x48 pixels) labeled with 7 emotions:
 | 6     | 0.62      | 0.72   | 0.66     | 1240    |
 
 ## Confusion Matrix(for Phase 2 before TTA)
-![Confusion Matrix]
+![Confusion Matrix](images/Confusion Matrix - Phase 2.png)
 
 ## Training & Validation Graphs(Phase 1 and 2)
 ![Accuracy & Loss Curves]
-
+Phase 1 (images/Phase 1 Graphs.png)
+Phase 2 (images/Phase 2 graphs.png)
 ## How to Run
 - Open the notebook `FER2013_Transfer_Learning.ipynb` in Kaggle or local Jupyter.
 - Run all the cells. 
