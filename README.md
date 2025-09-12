@@ -16,8 +16,11 @@ FER2013: 35,887 grayscale images (48x48 pixels) labeled with 7 emotions:
 ## Method
 - Used a pre-trained CNN (e.g., ResNet50/VGG16) as the base model.
 - Applied Transfer Learning: froze base layers and fine-tuned top layers on FER2013.
+- Fine-tuning was done in **two phases**:
+  - **Phase 1:** Initial fine-tuning on FER2013.
+  - **Phase 2:** Further fine-tuning with data augumentation, Test-Time Augmentation (TTA) and hyperparameter adjustments.
 - Data augmentation applied: rotation, shift, zoom, horizontal flip.
-- Used Test-Time Augmentation (TTA) to improve accuracy.
+- Used Test-Time Augmentation (TTA) in Phase 2 to improve accuracy.
 
 ## Results
 
@@ -40,12 +43,16 @@ FER2013: 35,887 grayscale images (48x48 pixels) labeled with 7 emotions:
 | 5     | 0.75      | 0.86   | 0.80     | 800     |
 | 6     | 0.62      | 0.72   | 0.66     | 1240    |
 
-## Confusion Matrix
+## Confusion Matrix(for Phase 2 before TTA)
 ![Confusion Matrix]
 
-## Training & Validation Graphs
+## Training & Validation Graphs(Phase 1 and 2)
 ![Accuracy & Loss Curves]
 
 ## How to Run
 - Open the notebook `FER2013_Transfer_Learning.ipynb` in Kaggle or local Jupyter.
 - Run all the cells. 
+## Future Work / In Progress
+- Explore CK+ dataset for emotion recognition.
+- Experiment with Swin Transformer architectures.
+- Investigate advanced preprocessing and augmentation techniques.
