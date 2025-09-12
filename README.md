@@ -51,7 +51,7 @@ FER2013: 35,887 grayscale images (48x48 pixels) labeled with 7 emotions:
 Phase 1 (images/Phase 1 Graphs.png)
 Phase 2 (images/Phase 2 graphs.png)
 ## How to Run
-- Open the notebook `FER2013_Transfer_Learning.ipynb` in Kaggle or local Jupyter.
+- Open the notebook `CNN with transfer learning.ipynb` in Kaggle or local Jupyter.
 - Run all the cells. 
 ## Future Work / In Progress
 - Explore CK+ dataset for emotion recognition.
