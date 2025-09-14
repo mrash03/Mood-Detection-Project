@@ -55,5 +55,6 @@ Phase 2 (images/Phase 2 graphs.png)
 - Run all the cells. 
 ## Future Work / In Progress
 - Explore CK+ dataset for emotion recognition.
-- Experiment with Swin Transformer architectures.
-- Investigate advanced preprocessing and augmentation techniques.
+-Switch from FER2013 to a larger, cleaner dataset (RAF-DB) for better generalisation.
+- Fine-tune a lightweight backbone (ConvNeXt-Tiny / EfficientNet-B0) with strong augmentation and class-balanced loss to improve minority-class performance.
+- Evaluate cross-dataset performance (train on RAF-DB, test on FER2013/CK+) to demonstrate robustness.
