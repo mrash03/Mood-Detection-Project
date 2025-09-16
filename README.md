@@ -1,4 +1,4 @@
-# Facial Emotion Recognition Projects  
+# Mood Detection Projects  
 
 This repository contains two related emotion recognition projects built using transfer learning and modern CNN architectures.  
 
